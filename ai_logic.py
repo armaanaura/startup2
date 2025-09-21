@@ -7,8 +7,8 @@ from google import genai
 from google.genai import types
 
 # --- dev key (inline as you requested). Env var overrides if set. ---
-API_KEY = os.getenv("GEMINI_API_KEY") or "NONE"
-client = genai.Client(api_key=API_KEY)
+# API_KEY = os.getenv("GEMINI_API_KEY") or "NONE"
+client = genai.Client(api_key="AIzaSyCAnjBDLQqnHtJkc4su1iXwmsjwOzHUtKE")
 
 EXTRACTION_PROMPT = """
 You are analyzing a STARTUP PITCH DECK (PDF or PPTX).
